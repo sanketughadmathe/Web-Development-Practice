@@ -25,6 +25,7 @@
 
 function sleepIn(weekday, vacation) {
     //Code Goes Here
+    return (!weekday || vacation);
 }
 
 

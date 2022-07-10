@@ -3,6 +3,7 @@
 
 // Create Empty Student Roster Array
 // This has been done for you!
+const prompt = require('prompt-sync')();
 var roster = []
 
 // Create the functions for the tasks
@@ -58,4 +59,11 @@ if (start === "y"){
         }
     }
 }
-alert("Thanks for using the Web App! Please refresh the page to start over.")
+if (typeof window !== 'undefined') {
+    alert("Thanks for using the Web App! Please refresh the page to start over.")
+    // 👉️ can use alert()
+  } else {
+    console.log('You are on the server')
+    // 👉️ can't use alert()
+  }
+

@@ -3,6 +3,7 @@ body {background-color: #DEF5E5;} */
 
 body {
   background-color: #DEF5E5;
+  font-family: 'Sacramento', cursive;
 }
 
 hr {
@@ -13,10 +14,12 @@ hr {
 
 h1  {
   color: palevioletred;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 h3  {
   color: palevioletred;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* .top {

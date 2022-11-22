@@ -1,1 +1,1 @@
-# Web-Development-Practice
+# Django_practice

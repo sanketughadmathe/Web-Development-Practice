@@ -7,8 +7,8 @@ var squares = document.querySelectorAll("td");
 // Clear Squares Function
 function clearBoard() {
   for (var i = 0; i < squares.length; i++) {
-      squares[i].textContent = '';
+    squares[i].textContent = '';
   }
 
 }
-restart.addEventListener('click',clearBoard)
+restart.addEventListener('click', clearBoard)
